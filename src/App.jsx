@@ -13,6 +13,7 @@ const fetchPlayer = async () => {
 function App() {
   const playersPromise = fetchPlayer();
   const [coin, setCoin] = useState(50000)
+  const [selectedPlayer, setSelectedPlayer] = useState([])
 
   return (
     <>
@@ -23,6 +24,8 @@ function App() {
           playersPromise={playersPromise}
           coin={coin}
           setCoin={setCoin}
+          selectedPlayer={selectedPlayer}
+          setSelectedPlayer={setSelectedPlayer}
         ></Players>
       </Suspense>
     </>

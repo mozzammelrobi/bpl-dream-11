@@ -1,11 +1,8 @@
 import React from 'react';
-import { CiFlag1 } from 'react-icons/ci';
-import { FaUser } from 'react-icons/fa';
-import Players from '../Players/Players';
 import Card from '../UI/Card';
 
-const AvailablePlayers = ({ players,coin,setCoin }) => {
-    console.log(coin)
+const AvailablePlayers = ({ players, coin, setCoin, selectedPlayer, setSelectedPlayer }) => {
+    // console.log(coin)
     return (
         <div className='container mx-auto '>
 
@@ -16,7 +13,14 @@ const AvailablePlayers = ({ players,coin,setCoin }) => {
                     players.map(player => {
                         // console.log(player)
                         return (
-                            <Card player={player} coin={coin} setCoin={setCoin}></Card>
+                            <Card
+                            key={player.id}
+                                player={player}
+                                coin={coin}
+                                setCoin={setCoin}
+                                selectedPlayer={selectedPlayer}
+                                setSelectedPlayer={setSelectedPlayer}
+                            ></Card>
                         )
 
                     })

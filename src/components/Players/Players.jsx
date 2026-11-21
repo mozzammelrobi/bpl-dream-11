@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
 import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
-const Players = ({ playersPromise, coin, setCoin }) => {
+const Players = ({ playersPromise, coin, setCoin, setSelectedPlayer, selectedPlayer }) => {
     const players = use(playersPromise)
     // console.log(players)
 
@@ -36,8 +36,14 @@ const Players = ({ playersPromise, coin, setCoin }) => {
                     players={players}
                     coin={coin}
                     setCoin={setCoin}
+                    selectedPlayer={selectedPlayer}
+                    setSelectedPlayer={setSelectedPlayer}
+
                 />
-                : <SelectedPlayers />
+                : <SelectedPlayers
+                    selectedPlayer={selectedPlayer}
+                    setSelectedPlayer={setSelectedPlayer}
+                />
             }
 
         </div>
