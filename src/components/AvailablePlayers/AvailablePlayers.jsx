@@ -4,7 +4,8 @@ import { FaUser } from 'react-icons/fa';
 import Players from '../Players/Players';
 import Card from '../UI/Card';
 
-const AvailablePlayers = ({ players }) => {
+const AvailablePlayers = ({ players,coin,setCoin }) => {
+    console.log(coin)
     return (
         <div className='container mx-auto '>
 
@@ -15,7 +16,7 @@ const AvailablePlayers = ({ players }) => {
                     players.map(player => {
                         // console.log(player)
                         return (
-                            <Card player={player}></Card>
+                            <Card player={player} coin={coin} setCoin={setCoin}></Card>
                         )
 
                     })
