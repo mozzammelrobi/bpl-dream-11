@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "batStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Orthodox",
+    "price": 8000000,
+    "playerImg": "https://i.ibb.co.com/nN7J88FQ/Shakib-Al-Hasan.jpg"
+  },
+  {
+    "id": 2,
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": 15000000,
+    "playerImg": "https://i.ibb.co.com/w1S449S/virat-koli.webp"
+  },
+  {
+    "id": 3,
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 12000000,
+    "playerImg": "https://i.ibb.co.com/vvmbPh2g/Babar-Azam.jpg"
+  },
+  {
+    "id": 4,
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Leg Break",
+    "price": 10000000,
+    "playerImg": "https://i.ibb.co.com/9Hzqp71r/Rashid-Khan.jpg"
+  },
+  {
+    "id": 5,
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicket-Keeper",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Does Not Bowl",
+    "price": 11000000,
+    "playerImg": "https://i.ibb.co.com/pvvvGxQB/Jos-Buttler.jpg"
+  },
+  {
+    "id": 6,
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "batStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Leg Break",
+    "price": 9000000,
+    "playerImg": "https://i.ibb.co.com/N611YB5g/David-Warner.jpg"
+  },
+  {
+    "id": 7,
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 13000000,
+    "playerImg": "https://i.ibb.co.com/MD9WvzpZ/Andre-Russell.jpg"
+  },
+  {
+    "id": 8,
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 14000000,
+    "playerImg": "https://i.ibb.co.com/PZzrb7KG/Jasprit-Bumrah.jpg"
+  },
+  {
+    "id": 9,
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "batStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Off Break",
+    "price": 8500000,
+    "playerImg": "https://i.ibb.co.com/0RJyyS5p/Kane-Williamson.jpg"
+  },
+  {
+    "id": 10,
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "batStyle": "Left-Handed",
+    "bowlingStyle": "Right-Arm Fast-Medium",
+    "price": 12500000,
+    "playerImg": "https://i.ibb.co.com/dJMYQdgQ/Ben-Stokes.webp"
+  }
+]

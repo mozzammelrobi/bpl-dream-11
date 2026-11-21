@@ -4,7 +4,7 @@ import logo from '../../assets/logo-footer.png'
 
 const Navbar = () => {
     return (
-        <div className="navbar ">
+        <div className="navbar border container mx-auto">
             <div className="flex-1">
                 <a className=""><img src={logo} alt="" /> </a>
             </div>
