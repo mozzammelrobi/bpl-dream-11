@@ -12,7 +12,7 @@ const Players = ({ playersPromise, coin, setCoin, setSelectedPlayer, selectedPla
         <div className='container mx-auto'>
             <div className='flex justify-between mt-24 mb-9'>
                 {selectedType === 'available' ? <h3 className='text-3xl font-bold'>Available Players </h3>
-                    : <h3 className='text-3xl font-bold'>Selected Players  </h3>
+                    : <h3 className='text-3xl font-bold'>Selected Players ({selectedPlayer.length}/{players.length}) </h3>
                 }
                 <div>
                     <button
@@ -25,7 +25,7 @@ const Players = ({ playersPromise, coin, setCoin, setSelectedPlayer, selectedPla
                         onClick={() => setSelectedType('selected')}
                         className={`btn ${selectedType === 'selected' ? 'bg-[#FEE502]' : ''} rounded-l-none rounded-r-xl`}
                     >
-                        Selected (0)
+                        Selected ({selectedPlayer.length})
                     </button>
                 </div>
             </div>
@@ -43,6 +43,8 @@ const Players = ({ playersPromise, coin, setCoin, setSelectedPlayer, selectedPla
                 : <SelectedPlayers
                     selectedPlayer={selectedPlayer}
                     setSelectedPlayer={setSelectedPlayer}
+                    coin={coin}
+                    setCoin={setCoin}
                 />
             }
 

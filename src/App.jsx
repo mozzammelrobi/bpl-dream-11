@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Homepages/Banner/Banner'
 import { Suspense, useState } from 'react'
 import Players from './components/Players/Players'
+import { ToastContainer } from 'react-toastify'
 
 
 const fetchPlayer = async () => {
@@ -28,6 +29,10 @@ function App() {
           setSelectedPlayer={setSelectedPlayer}
         ></Players>
       </Suspense>
+
+
+        {/* react tostify  */}
+         <ToastContainer />
     </>
   )
 }
